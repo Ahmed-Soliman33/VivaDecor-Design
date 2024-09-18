@@ -73,10 +73,11 @@ main {
     margin-left: 10px;
 }
 .projects-info li {
+    text-align: center;
     align-items: center;
 }
 .projects-info li h2 {
-    font-size: 55px;
+    font-size: 50px;
     color: var(--text-color);
 }
 .projects-info li p {
@@ -459,7 +460,7 @@ footer .sec-container{
         
     }
     .subscribe-sec {
-        margin-top: 370px;
+        margin-top: 400px;
     }
     footer .sec-container {
         justify-content: space-evenly;
@@ -561,7 +562,7 @@ footer .sec-container{
         font-size: 12px;
     }
     .subscribe-sec {
-        margin-top: 170px;
+        margin-top: 200px;
     }
     .subscribe {
         width: 90%;
@@ -640,11 +641,14 @@ footer .sec-container{
         color: #fff;
     }
     .subscribe-sec {
-        margin-top: 280px;
+        margin-top: 270px;
+        transform: translateY(100px);
     }
     .div-line {
         height: 90px ;
         margin-top: 12px;
     }
-}   
+}   .projects-info li{
+        transform: translateX(-15px);
+}
 
